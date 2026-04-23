@@ -1,20 +1,22 @@
 # 🚀 Web3 Wallet Dashboard
 
-A React-based Web3 dashboard that allows users to connect wallets, view balances, sign messages, and send transactions.
+A React-based Web3 dashboard with wallet integration and transaction features.
 
 ## ✨ Features
 
-- 🔌 Wallet connection (MetaMask, Brave Wallet)
-- 📊 Display wallet address and balance
-- ✍️ Sign messages (Web3 authentication)
-- 💸 Send transactions on testnet
+- Wallet connection (RainbowKit)
+- Account & balance display
+- Sign message functionality
+- Send ETH transactions
+- Toast notifications for UX
+- State reset on account change
 
 ## 🛠 Tech Stack
 
 - React (Vite)
-- wagmi
+- wagmi + viem
 - RainbowKit
-- viem
+- react-hot-toast
 
 ## 🌐 Network
 
